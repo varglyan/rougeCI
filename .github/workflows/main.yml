@@ -5,6 +5,7 @@ on: push
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
+jobs:
  testRunner:
    name: Test all modes 📝
    runs-on: ubuntu-latest
